@@ -24,6 +24,3 @@ slackEvents.on('error', console.error);
 slackEvents.start(port).then(() => {
     console.log('Server started on port ${port}')
 });
-
-
-
